@@ -2,11 +2,14 @@
 
 A collection of wrobot scripts I have found and modified in various ways to fit my needs for vanilla Wow.
 
+
 Notes:
+
 For Mages/Priests I have modified wand logic, vanilla wow is difficult to work with for wands specifically.
 Copied over the anti-tag logic so that the bot doesnt attack mobs that other players have targetted and are attacking.
 
 Priest:
+
 Added PsychicScream as WowSpell and some logic to use it if surrounded by multiple enemies, doesnt seem to work due to not detecting multiple enemies attacking at once - WIP.
  - EnemiesAttackingMeCount
    Supposed to return how many mobs are attacking the player at the same time.
